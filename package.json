@@ -1,0 +1,22 @@
+{
+  "name": "voicemeeter-controller-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --watch src --watch index.js --exec \"node index.js\"",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "pkg": "^5.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "exit-hook": "^2.2.1",
+    "express": "^4.17.1",
+    "voicemeeter-connector": "^1.0.3"
+  }
+}
